@@ -10,8 +10,7 @@ import com.raphaeldev.systemproduct.entities.Product;
 import com.raphaeldev.systemproduct.repositories.ProductRepository;
 
 @Service
-public class ProductService  {
-	
+public class ProductService{	
 	@Autowired
 	private ProductRepository repository;
 	
